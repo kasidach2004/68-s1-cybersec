@@ -1,5 +1,5 @@
 services:
-  s1_app:
+  s1app:
     image: prawee/strapi
     container_name: s1_app
     ports:
