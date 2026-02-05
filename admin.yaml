@@ -1,6 +1,6 @@
 services:
   s1_admin:
-    image: admin-service:dpage/pgadmin4
+    image: dpage/pgadmin4
     container_name: 68-s1-admin
     ports:
       - ${ADMIN_PORT}
