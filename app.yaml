@@ -1,0 +1,15 @@
+services:
+  s1_app:
+    image: prawee/strapi
+    container_name: s1_app
+    ports:
+      - ${APP_PORT}
+    environment:
+      DATABASE_CLIENT: ${DATABASE_CLIENT}
+      DATABASE_HOST: ${DATABASE_HOST}
+      DATABASE_PORT: ${DATABASE_PORT}
+      DATABASE_USERNAME: ${DATABASE_USER}
+      DATABASE_NAME: ${DATABASE_DB}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      # ถ้า Strapi หรือ App ของคุณต้องการตัวแปร Admin ก็ใส่เพิ่มตรงนี้
+
