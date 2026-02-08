@@ -1,7 +1,7 @@
 services:
   s1app:
     image: prawee/strapi
-    container_name: s1_app
+    container_name: s1app
     ports:
       - ${APP_PORT}
     environment:
