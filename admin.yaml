@@ -7,3 +7,4 @@ services:
     environment:
       - PGADMIN_DEFAULT_EMAIL=${ADMIN_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${ADMIN_PASSWORD}
+    
