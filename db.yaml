@@ -3,8 +3,8 @@ services:
     image: postgres:latest
     container_name: 68-s1-database
     ports:
-      - ${DATABASEE_PORT}
+      - "${DATABASE_PORT}"
     environment:
       POSTGRES_USER: ${DATABASE_USER}
-      POSTGRES_DB: ${DATABASE_DB}
+      POSTGRES_NAME: ${DATABASE_NAME}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
