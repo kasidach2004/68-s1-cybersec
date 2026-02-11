@@ -3,7 +3,7 @@ services:
     image: postgres:latest
     container_name: 68-s1-database
     ports:
-      - "${DATABASE_PORT}"
+      - ${DATABASE_PORT}
     environment:
       POSTGRES_USER: ${DATABASE_USER}
       POSTGRES_NAME: ${DATABASE_NAME}

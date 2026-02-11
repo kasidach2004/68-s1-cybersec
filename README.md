@@ -14,20 +14,29 @@
 =======
 ## Environment
  ```sh
-
- cp env.simpe_admin .env
-
+  cp env.simpe_admin .env
  ``` 
+ 
+## Running a service
+### Database
+  ``` sh
+docker compose -f db.yaml up #monitoring
+docker compose -f db.yaml up -d #background
+
+  ``` 
+
 ## Running a service
 ### Admin
   ``` sh
 docker compose -f admin.yaml up #monitoring
 docker compose -f admin.yaml up -d #background
-=======
+
 ## Environment
  ```sh
-
  cp env.simpe .env
+
+ ``` 
+=======
 
 
  ``` 
@@ -47,3 +56,4 @@ docker compose -f app.yaml up -d #background
 
 
   ``` 
+
