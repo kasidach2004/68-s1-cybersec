@@ -1,10 +1,10 @@
 services:
-  s1_admin:
+  s1admin:
     image: dpage/pgadmin4
     container_name: 68-s1-admin
     ports:
       - ${ADMIN_PORT}
     environment:
-      - PGADMIN_DEFAULT_EMAIL=${ADMIN_EMAIL}
-      - PGADMIN_DEFAULT_PASSWORD=${ADMIN_PASSWORD}
+      - PGADMIN_EMAIL=${ADMIN_EMAIL}
+      - PGADMIN_PASSWORD=${ADMIN_PASSWORD}
     
