@@ -5,6 +5,6 @@ services:
     ports:
       - ${ADMIN_PORT}
     environment:
-      - PGADMIN_EMAIL=${ADMIN_EMAIL}
-      - PGADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - PGADMIN_DEFAULT_EMAIL=${ADMIN_EMAIL}
+      - PGADMIN_DEFAULT_PASSWORD=${ADMIN_PASSWORD}
     
